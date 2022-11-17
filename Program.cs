@@ -41,7 +41,11 @@ namespace EnthusiasticMoose
             {
                 Console.WriteLine($@"-----------------------------
 | Player: {scores[0]}  |  Computer: {scores[1]} |
------------------------------");
+-----------------------------
+1) Rock
+2) Paper
+3) Scissors");
+                Console.Write("Choose your weapon (1/2/3): ");
                 int playerChoice = Convert.ToInt16(Console.ReadLine());
                 int computerChoice = r.Next(1, 3);
 
